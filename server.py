@@ -21,7 +21,7 @@ def server_program():
                 conn, address = server_socket.accept()  # accept new connection
                 print("Connection from: " + str(address))
                 with open("log.txt", "a") as fi:  # create/open and append to log.txt
-                    fi.write("Connection from: " + str(address) + "\n")
+                    fi.write("\nConnection from: " + str(address) + "\n")
                 while True:
                     # receive data stream. it won't accept data packet greater than 1024 bytes
                     try:
