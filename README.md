@@ -41,3 +41,8 @@ You can install these dependencies using pip:
 
 ```bash
 pip install pynput socket
+```
+
+# Screenshot of workflow
+
+<img src="https://github.com/Gpette01/KeyLogger/blob/main/images/image1.png">
