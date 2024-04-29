@@ -16,7 +16,7 @@ To use this script, you need to have the server.py running that can accept the i
 
 # server.py
 
-This Python script is a simple server that accepts connections from clients and logs the received data. It uses the `socket` library to create a server and handle client connections.
+This Python script is a simple server that accepts connections from clients and logs the received data to a file named "log.txt". It uses the `socket` library to create a server and handle client connections.
 
 ## How it works
 
